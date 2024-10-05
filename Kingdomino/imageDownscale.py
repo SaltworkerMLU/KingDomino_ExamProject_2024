@@ -8,8 +8,8 @@ score_colors = [''] * 25
 score_crowns = [''] * 25
 
 # Extract files from each of the folders containing dominos, castles, and games
-domino_paths = sorted(glob.glob("King Domino dataset/MLU database/unique dominos/*.jpg"))
-castle_paths = sorted(glob.glob("King Domino dataset/MLU database/unique dominos/castles/*.jpg"))
+domino_paths = sorted(glob.glob("King Domino dataset/unique dominos/*.jpg"))
+castle_paths = sorted(glob.glob("King Domino dataset/unique dominos/castles/*.jpg"))
 game_paths = sorted(glob.glob("King Domino dataset/Cropped and perspective corrected boards/*.jpg"))
 
 # Colors of each domino from left to right
